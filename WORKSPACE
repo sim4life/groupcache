@@ -1,7 +1,7 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 # load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
 
-GO_VERSION = "1.11.13"
+GO_VERSION = "1.13.1"
 
 http_archive(
     name = "io_bazel_rules_go",
